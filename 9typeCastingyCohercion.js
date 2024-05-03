@@ -12,7 +12,9 @@
 // para la ejecucion del programa en ese momento y detiene el error como en javaScript
 
 
-// conversion implicita o implicit type casting
+// 1. conversion implicita o implicit type casting
+
+
 // Esto hace que JavaScript busca solucionar de la manera mas conveniente 
 const numero =2
 const boolean =true
@@ -33,7 +35,7 @@ console.log(sum2)
 
 
 
-// conversion explicita (Type Casting)
+// 2. conversion explicita (Type Casting)
 // // se convierte con aplicacion de funciones predeterminadas
 // String()
 // Number()

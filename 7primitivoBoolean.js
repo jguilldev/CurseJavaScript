@@ -7,7 +7,7 @@ console.log(resultado)
 
 
 const name= 'Guillermo'
-console.log(!!name)
+console.log(!!name) //se esta preguntando si hay un valor, como si lo hay retorna un 1
 
 // l doble signo de exclamación (!!), a menudo denominado "doble negación",
 //  se utiliza para convertir un valor en su equivalente booleano de manera explícita.

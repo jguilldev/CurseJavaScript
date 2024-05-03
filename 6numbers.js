@@ -1,3 +1,5 @@
+// numbers es un tipo de dato primitivo
+
 //numeros enteros y decimales
 const entero =9
 const decimal =0.23
