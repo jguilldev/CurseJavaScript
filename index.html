@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora electrica</title>
+</head>
+<body>
+  <!-- Inicio de titulos y seleccion -->
+  <h1 class="tituloPrincipal">Calculadora Electrica Monofasica</h1>
+  <h2>Ley de Watt</h2>
+  <h3>Selecciona que Quieres Hallar?</h3>
+  <select id="seleccion">
+    <option id="1" value="opcion1">Potencia</option>
+    <option id="2" value="opcion2">Tension</option>
+    <option id="3" value="opcion3">Corriente</option>
+    <option id="4" value="opcion4">Resistencia</option>
+  </select>
+  <!-- final de titulos y seleccion  -->
+
+  <!-- Cada seccion inicio -->
+
+  <section id="Opcion1" style="display: none;">
+    <h3>Potencia</h3>
+    <h4>Recuerda debes tener minimo el valor de Voltaje y la corriente para encontrar el valor de potencia</h4>
+    <span>Voltaje</span>
+    <input type="text" id="nombre" value="0.0" placeholder="Ingrese Voltaje" required>
+    <span>Corriente</span>
+    <input type="text" id="nombre" value="0.0" placeholder="Ingrese corriente" required>
+    <img src="imgs/Potencia.png">
+  </section>
+
+  <section id="Opcion2" style="display: none;">
+    <h3>Tension</h3>
+      
+      <h4>Recuerda debes tener minimo el valor de Potencia y la Corriente para encontrar el valor de Voltaje o</h4>
+      <h4>tener minimo el valor de Potencia y la Resistencia para encontrar el valor de Voltaje </h4>
+      <span>Voltaje</span>
+      <input type="text" id="nombre" value="0.0" placeholder="Ingrese Voltaje" required>
+      <span>Corriente</span>
+      <input type="text" id="nombre" value="0.0" placeholder="Ingrese corriente" required>
+      <img src="imgs/Voltaje.png">
+    </section>
+
+
+    <section id="Opcion3" style="display: none;">
+      <h3>Corriente</h3>
+      <p>I=P/V</p>
+    </section>
+    <section id="Opcion4" style="display: none;">
+      <h3>Resistencia</h3>
+      <p>R=V/I</p>
+    </section>
+
+
+    <script src="logica.js"></script>
+  </body>
+  </html>
