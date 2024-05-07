@@ -18,6 +18,18 @@ console.log(falcon9Rocket.launchMessage()) // no olvidar que launchMessage es un
 // con arrow function no se puede usar "new" para crear nuevos objetos
 // pero si se pueden crear objetos
 
+
+
 // OBJETOS CON ARROW FUNCTION
 
-const objetosConArrowFunction =()=>
+// dentro de la estructura de los corchetes se usan ({})
+const objetosConArrowFunction = (nombre, mensajePropio) => ({
+  nombre: nombre,
+  launchMessage: mensajePropio() //hay que usar () para que se ejecute la funcion
+});
+
+const personalizacionDelMensajeParaArrowFunction = () => 'lanzamiento realizado';
+const falcon9Rocket1 = objetosConArrowFunction('falcon', personalizacionDelMensajeParaArrowFunction);
+
+console.log(falcon9Rocket1.nombre); // 'falcon'
+console.log(falcon9Rocket1.launchMessage); // 'lanzamiento realizado'
