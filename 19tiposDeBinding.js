@@ -36,7 +36,7 @@ function Person(name) {
     this.name = name;
   }
   
-  const adam = new Person('Adam');
+  const adam1 = new Person('Adam');
   console.log(adam.name); // Output: Adam
 
 
@@ -44,7 +44,7 @@ function Person(name) {
 //   Ocurre cuando se utiliza this en una función dentro de otra función. En este caso, 
 //   this se vincula al contexto léxico de la función exterior.
 
-const person = {
+const person1 = {
     name: 'Adam',
     greet: function() {
       const innerFunction = () => {
