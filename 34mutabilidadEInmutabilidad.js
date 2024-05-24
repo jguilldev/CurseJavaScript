@@ -52,3 +52,4 @@ console.log(jugadoresyPerros)
 // Checkeara si un array es un array 
 
 const esUnArray= Array.isArray(perros)
+console.log(esUnArray) //producira un true
