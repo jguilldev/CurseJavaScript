@@ -12,7 +12,7 @@ console.log(`${electronicos}`)
 electronicos.unshift("Pirometro") //agrega al principio del arraY
 console.log(`${electronicos}`) //retorna los elementos del array
 
-//voy en el minuto 4:16
+
 
 
 
