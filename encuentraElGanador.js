@@ -53,6 +53,7 @@ function ganadorTorneo(competiciones, resultados) {
   
       // Actualiza la puntuación del equipo ganador en el objeto `puntuaciones`
       puntuaciones[equipoGanador] = (puntuaciones[equipoGanador] || 0) + 3;
+      //se usan los parentesis por coherencia (puntuaciones[equipoGanador] || 0) ya que puede estar vacio y al sumar cambiar el tipo de dato
       //primero se accede al elemento [equipoGanador] del objeto puntuaciones que se inicializo vacio antes
       // como esta linea const equipoGanador = resultados[i] === 0 ? equipoVisitante : equipoLocal;
       //  ya corrio en el programa 
