@@ -18,11 +18,13 @@ const nombre = "Guillermo"
 const pais="Colombia"
 const saludo= `Hola soy ${nombre} y soy de ${pais}`
 
-//concatenacion con join
+//concatenacion con join funciona para concatenar elementos de un array[]
 const primera= "con esta";
 const segunda= "frase"
 const tercera= "se concatena"
 const concatenacion =[primera,segunda,tercera]
+let resultado = concatenacion.join(" ") //el argumento es el separador entre palabras
+console.log(resultado) //retorna: con esta frase se concatena
 
 //concatenacion con concat
 
