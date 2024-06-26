@@ -6,8 +6,8 @@ console.log(typeof StringPrim1)
 const StringPrim2 =String('Tambien Soy un string ')
 console.log(typeof StringPrim2)
 
-//String de tipo objetos
-// se modifica el valor original 
+//String de tipo objetos (no primitivo)
+// se modifica el valor original mediante metodos
 
 const StringObjeto2 = new String('Tambien Soy un string objeto')
 console.log(typeof StringObjeto2)
